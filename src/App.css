@@ -1,12 +1,14 @@
 .header-color {
-  background: #659999;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  background: #093028;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: black
 }
+
 .landing-grid {
-  background: #659999;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #093028;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   text-align: center;
   position: fixed;
   top: 0;
@@ -53,6 +55,17 @@
 }
 .projects-grid {
   display: flex;
+  justify-content: 'center';
+  align-items: 'center'
+}
+
+/* Resume Page */
+.resume-grid {
+  padding-top: 40px;
+  width: 70%
+}
+.resume-right-col {
+  padding-left: 80px
 }
 
 /* Contact Page */
